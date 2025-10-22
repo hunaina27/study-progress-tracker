@@ -1,20 +1,20 @@
 
 const schedule = {
     Monday: [
-        { subject: 'Computer', time: '9:00 a.m. - 12:00 p.m.', lectures: 2 },
-        { subject: 'English', time: '9:00 a.m. - 12:00 p.m.', lectures: 1 },
+        { subject: 'Computer', time: '9:00 a.m. - 11:00 p.m.', lectures: 2 },
+        { subject: 'English', time: '11:00 a.m. - 12:00 p.m.', lectures: 1 },
         { subject: 'English', time: '2:00 p.m. - 4:00 p.m.', lectures: 2 },
         { subject: 'JavaScript Practice', time: '7:00 p.m. - 8:00 p.m.', lectures: 1 }
     ],
     Tuesday: [
         { subject: 'JavaScript Class', time: '9:00 a.m. - 12:00 p.m.', lectures: 1 },
         { subject: 'Computer', time: '3:00 p.m. - 5:00 p.m.', lectures: 2 },
-        { subject: 'Math 101', time: '7:00 p.m. - 9:00 p.m.', lectures: 2 },
-        { subject: 'Math 202', time: '9:00 p.m. - 11:00 p.m.', lectures: 2 }
+        { subject: 'Math 101', time: '7:00 p.m. - 9:00 p.m.', lectures: 2 }
+
     ],
     Wednesday: [
-        { subject: 'Computer', time: '9:00 a.m. - 12:00 p.m.', lectures: 2 },
-        { subject: 'English', time: '9:00 a.m. - 12:00 p.m.', lectures: 1 },
+        { subject: 'Computer', time: '9:00 a.m. - 11:00 p.m.', lectures: 2 },
+        { subject: 'English', time: '11:00 a.m. - 12:00 p.m.', lectures: 1 },
         { subject: 'English', time: '2:00 p.m. - 4:00 p.m.', lectures: 2 },
         { subject: 'JavaScript Practice', time: '7:00 p.m. - 8:00 p.m.', lectures: 1 }
     ],
@@ -22,15 +22,16 @@ const schedule = {
         { subject: 'JavaScript Class', time: '9:00 a.m. - 12:00 p.m.', lectures: 1 },
         { subject: 'Computer', time: '3:00 p.m. - 5:00 p.m.', lectures: 2 },
         { subject: 'Math 101', time: '7:00 p.m. - 9:00 p.m.', lectures: 2 },
-        { subject: 'Math 202', time: '9:00 p.m. - 11:00 p.m.', lectures: 2 }
     ],
     Friday: [
         { subject: 'Physics + Numericals', time: '9:00 a.m. - 12:00 p.m.', lectures: 2 },
-        { subject: 'Pakistan Studies', time: '4:00 p.m. - 6:00 p.m.', lectures: 2 }
+        { subject: 'Pakistan Studies', time: '4:00 p.m. - 6:00 p.m.', lectures: 2 },
+        { subject: 'Math 202', time: '8:00 p.m. - 11:00 p.m.', lectures: 1 }
     ],
     Saturday: [
         { subject: 'Physics + Numericals', time: '9:00 a.m. - 12:00 p.m.', lectures: 2 },
-        { subject: 'Pakistan Studies', time: '4:00 p.m. - 6:00 p.m.', lectures: 2 }
+        { subject: 'Pakistan Studies', time: '4:00 p.m. - 6:00 p.m.', lectures: 2 },
+        { subject: 'Math 202', time: '8:00 p.m. - 11:00 p.m.', lectures: 1 }
     ],
     Sunday: []
 };
