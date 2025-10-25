@@ -11,23 +11,28 @@
 </head>
 
 <body>
-    <div class="container">
-        <h2 class="text-center mb-4">📚 Study Progress Tracker</h2>
-        <h5 id="dayTitle" class="text-center mb-4"></h5>
+   <div class="container">
+    <h2 class="text-center mb-4">📚 Study Progress Tracker</h2>
+    <h5 id="dayTitle" class="text-center mb-4"></h5>
 
-        <div id="lecturesList"></div>
+    <div id="lecturesList"></div>
 
-        <div class="mt-4">
-            <div class="progress">
-                <div id="progressBar" class="progress-bar bg-success" role="progressbar" style="width: 0%">0%</div>
-            </div>
-        </div>
-
-        <div class="text-center mt-4">
-            <button class="btn btn-secondary btn-sm" onclick="resetDay()">🔁 Reset Today's Progress</button>
-            <button class="btn btn-danger btn-sm" onclick="resetAll()">🧹 Reset All</button>
-        </div>
+    <div class="mt-4">
+      <div class="progress">
+        <div id="progressBar" class="progress-bar bg-success" role="progressbar" style="width: 0%">0%</div>
+      </div>
     </div>
+
+    <div class="subject-progress">
+      <h5>📈 Overall Subject Progress</h5>
+      <div id="subjectProgressList"></div>
+    </div>
+
+    <div class="text-center mt-4">
+      <button class="btn btn-secondary btn-sm" onclick="resetDay()">🔁 Reset Today's Progress</button>
+      <button class="btn btn-danger btn-sm" onclick="resetAll()">🧹 Reset All</button>
+    </div>
+  </div>
     <script src="app.js"></script>
 
 </body>
